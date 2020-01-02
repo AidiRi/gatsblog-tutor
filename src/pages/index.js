@@ -10,3 +10,5 @@ const IndexPage = () =>{
 }
 
 export default IndexPage
+
+//All files in src/pages folder will be created into different url paths thru Gatsby
