@@ -1,10 +1,12 @@
-import React from "react"
+import React from 'react'
+import { Link } from 'gatsby'
 
 const IndexPage = () =>{
   return(
     <div>
       <h1>Hello, there.</h1>
       <h2>I'm Aidiris, a full-stack developer solving first-world problems.</h2>
+      <p>Need a first-world-problem solver? <Link to="/contact">Contact me.</Link></p>
     </div>
   )
 }
