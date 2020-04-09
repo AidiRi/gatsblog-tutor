@@ -1,23 +1,27 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import { Link } from "gatsby"
 
-const Header = () => {
-  return(
+/*
+Props:
+headerText : "string"
+*/
+const Header = props => {
+  return (
     <header>
-      <h1>The Great Gatsblog</h1>
+      <h1>{props.headerText}</h1>
       <nav>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to='/about'>About Me</Link>
+            <Link to="/about">About Me</Link>
           </li>
           <li>
-            <Link to='/blog'>Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

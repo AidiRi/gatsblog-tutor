@@ -1,16 +1,16 @@
-import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
-const BlogPage = () =>{
-  return(
+const BlogPage = () => {
+  return (
     <div>
-      <Header/>
+      <Header headerText="The Great Gatsblog" />
 
       <h1>Blog</h1>
       <p>Posts will show up here tomorrow-ish.</p>
 
-      <Footer/>
+      <Footer />
     </div>
   )
 }
